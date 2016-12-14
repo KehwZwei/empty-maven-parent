@@ -1,8 +1,8 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.s3s3l.template</groupId>
-	<artifactId>empty-maven-parent</artifactId>
+	<groupId>temp_group_id</groupId>
+	<artifactId>temp_artifact_id</artifactId>
 	<version>${s3s3l.template.version}</version>
 	<packaging>pom</packaging>
 	
@@ -129,7 +129,7 @@
 		<plugin.surefire.version>2.9</plugin.surefire.version>
 		<plugin.findbugs.version>3.0.3</plugin.findbugs.version>
 
-		<s3s3l.template.version>1.0.0-SNAPSHOT</s3s3l.template.version>
+		<s3s3l.template.version>temp_version</s3s3l.template.version>
 	</properties>
 	
 	<distributionManagement>
